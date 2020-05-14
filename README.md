@@ -33,11 +33,11 @@ http://127.0.0.1:8000/upload
 <img src="data/ex1.png">
 
 
-**Input Image (URL):** `https://upload.wikimedia.org/wikipedia/commons/0/04/Greenland_467_%2835130903436%29.jpg`
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Greenland_467_%2835130903436%29.jpg">
+**Input Image (URL):** `https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Greenland_467_%2835130903436%29.jpg/640px-Greenland_467_%2835130903436%29.jpg`
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Greenland_467_%2835130903436%29.jpg/640px-Greenland_467_%2835130903436%29.jpg">
 
 **Prediction:**
-http://127.0.0.1:8000/classify-url?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F0%2F04%2FGreenland_467_%252835130903436%2529.jpg
+http://127.0.0.1:8000/classify-url?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F0%2F04%2FGreenland_467_%252835130903436%2529.jpg%2F640px-Greenland_467_%252835130903436%2529.jpg
 
 <img src="data/ex2.png">
 
