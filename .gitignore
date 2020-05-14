@@ -135,4 +135,6 @@ nbs/dl1/fastai
 .gitconfig
 
 # data dir
-data
+# data
+
+README.ipynb
