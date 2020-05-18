@@ -17,11 +17,19 @@ My first hands-on deep learning classifier using data from `imagenette` and [goo
 
 -`export.pkl` : Exported model after training (84 MB file)
 
--`meme_api.py` : A small [Starlette](https://www.starlette.io) API which accepts file upload as well as image URL and runs them against pre-calculated model to give prediction (Couldn't find a way to host in free :stuck_out_tongue_winking_eye:). Usage:
+-`meme_api.py` : A small [Starlette](https://www.starlette.io) API which accepts file upload as well as image URL and runs them against pre-calculated model to give prediction. 
+Local Usage:
 
 ```
 uvicorn meme_api:app
 ```
+
+
+The model is deployed on [Render](https://render.com) at https://meme-classifier.onrender.com. 
+
+
+Template of the same can can be found [here.](https://github.com/render-examples/fastai-v3)
+
 
 ### Examples
 **Input Image (upload):** `data/Unknown.jpg`
